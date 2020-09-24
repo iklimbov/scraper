@@ -1,0 +1,21 @@
+body {
+  min-width: 20em;
+  max-width: 100%;
+  position: relative;
+  vertical-align: middle;
+}
+.blue {
+  background-color: #f0f8ff;
+}
+.a_link img {
+  height: 2em;
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: blue;
+  font-weight: bolder;
+}

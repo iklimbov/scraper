@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Current google search results</title>
+    <link rel="stylesheet" href="assets/css/components/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css" />
+  </head>
+  <body>
+    <div class="alert alert-success a_link">
+      <img style="float: right;" src="assets/images/icon_128.png" />
+      <h4 style="margin: 0 0 0em 0;">
+        <div id="items_fetched"></div>
+      </h4>
+    </div>
+    <div class="list-group blue">
+      <a
+        id="download_data"
+        href="#"
+        class="list-group-item list-group-item-action blue"
+        >Download CSV</a
+      >
+      <a
+        id="open-new-tab"
+        href="#"
+        class="list-group-item list-group-item-action blue"
+      >
+        Open in New Tab</a
+      >
+      <a
+        id="delete_results"
+        href="#"
+        class="list-group-item list-group-item-action blue"
+        >Delete Results
+        <div id="status"></div
+      ></a>
+
+      <div class="list-group-item list-group-item-action blue a_link">
+        <a id="optionsLink" href="options.html" target="_blank"
+          ><img src="assets/images/options.png" /></a
+        >&nbsp;&nbsp;
+        <a id="helpLink" href="help.html" target="_blank"
+          ><img src="assets/images/help.png" /></a
+        >&nbsp;&nbsp;
+        <a id="meLink" href="license.html" target="_blank"
+          ><img src="assets/images/license.png" /></a
+        >&nbsp;&nbsp;
+        <a id="meLink" href="safe.html" target="_blank"
+          ><img src="assets/images/safe.png" /></a
+        >&nbsp;&nbsp;
+        <a
+          id="meLink"
+          href="https://www.linkedin.com/in/inna-klimbovskaia-17208b11/"
+          target="_blank"
+          ><img src="assets/images/ik.png"
+        /></a>
+      </div>
+    </div>
+
+    <section id="content">
+      <!-- search results will be displayed here -->
+      <p id="counterResults"></p>
+    </section>
+
+    <script type="module" src="assets/js/popup.js"></script>
+    <script type="module" src="assets/js/utils.js"></script>
+  </body>
+</html>

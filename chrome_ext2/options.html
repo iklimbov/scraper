@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Data Collection Options</title>
+    <link rel="stylesheet" href="assets/css/components/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="alert alert-success a_link">
+        <h4 style="margin: 0 0 1em 0;">
+          <img src="assets/images/icon_128.png" /> G-Recorder&nbsp;Options
+        </h4>
+      </div>
+      <div class="container mt-3 col-md-12">
+        <h5>Data collections options:</h5>
+        <div class="form-check">
+          <input type="checkbox" id="duplicates" class="form-check-input" />
+          Include duplicate websites
+        </div>
+        <div>
+          <input type="checkbox" id="noweb" />
+          Include search results with no websites
+        </div>
+        <div>
+          <input type="checkbox" id="address" />
+          Include full addresses
+        </div>
+        <div>
+          <input type="checkbox" id="area" />
+          Include area
+        </div>
+        <div>
+          <input type="checkbox" id="include_coordinates" />
+          Include coordinates
+        </div>
+      </div>
+      <div class="container mt-3 col-md-12">
+        <h5>Display options:</h5>
+        <div>
+          <input type="checkbox" id="include_li" />
+          Include LinkedIn search link
+        </div>
+        <div>
+          <input type="checkbox" id="include_h" />
+          Include Hunter search link
+        </div>
+        <div>
+          <input type="checkbox" id="include_y" />
+          Include Yelp search link
+        </div>
+        <div>
+          <input type="checkbox" id="include_indeed" />
+          Include Indeed search link
+        </div>
+      </div>
+      <div
+        class="container mt-3 col-md-12 alert alert-success"
+        style="margin-bottom: -19px;"
+      >
+        <div class="panel-heading">
+          <div class="text-danger">
+            <h6>Note: Saving will delete your current search results</h6>
+          </div>
+        </div>
+        <div class="">
+          <div id="status"></div>
+          <button id="save" class="btn btn-info">Save</button>
+        </div>
+      </div>
+    </div>
+    <script src="assets/js/options.js"></script>
+  </body>
+</html>

@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "G-Recorder",
+    "description": "Google Maps Recorder/Scraper"
+  },
+  "appDesc": {
+    "message": "Captures the search results of the Google Maps searches in CSV format.", 
+    "description":"Captures the search results of the Google Maps searches in CSV format."
+  }
+}
